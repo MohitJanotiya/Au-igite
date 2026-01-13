@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+    background-color: lightgray;
+    font-size: 40px;
+}
+h2{
+    color: green;
+    background-color: lightyellow;
+    font-size: 30px;
+}
+
+
+div{
+    color: red;
+    background-color: black;
+}   

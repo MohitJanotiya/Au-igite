@@ -1,0 +1,20 @@
+//Calculator Program
+
+
+const display = document.getElementById("display")
+
+
+function appendtodisplay(input){
+    display.value += input;
+}
+function cleardisplay(){
+    display.value = "" ;
+}
+function calculate(input){
+    try{
+    display.value = eval(display.value)
+    }
+    catch{
+        display.value = "Error";
+    }
+}

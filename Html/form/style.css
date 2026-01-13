@@ -1,0 +1,104 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+/* Main container */
+body > div {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+h1 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 6px 0;
+}
+
+a {
+    color: #0a66c2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Profile section */
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table img {
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}
+
+/* Section headings */
+h2, h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #0a66c2;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Projects */
+.projects p {
+    margin-left: 15px;
+}
+
+/* Skills badges look */
+ul li {
+    list-style-type: square;
+}
+
+/* Details (Soft Skills) */
+details {
+    margin-top: 10px;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+}

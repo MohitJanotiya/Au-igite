@@ -1,0 +1,31 @@
+Css types
+ Three types:
+ inline : same line (style attribute)
+ internal : Head
+ external : .css file 
+
+
+
+ Css Priority::
+ Syntax:
+ Selector {
+    Property : Value
+ }
+ Selector defines the area choosed for applying css
+
+
+ Selector types: 
+ *Simple Selector:have 5 
+    ID (#)
+    Class (.)
+    Universal (*)
+    Tag (tag name)
+    Group (,)
+* Combinator Selector: 4
+    Dcendent (space)
+    Child (>)
+    Adjasent Child (+)
+    General (~)
+*Pseudo Class
+*Pseudo Element
+*attribute 
