@@ -38,3 +38,5 @@ let b = document.getElementById("btn");
 b.addEventListener("click", function () {
     alert("Button clicked");
 });
+
+console.log(Hello)
