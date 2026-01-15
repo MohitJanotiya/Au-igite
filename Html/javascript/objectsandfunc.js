@@ -40,3 +40,5 @@ b.addEventListener("click", function () {
 });
 
 console.log(Hello)
+console.log(Hello)
+
